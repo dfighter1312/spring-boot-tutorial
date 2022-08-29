@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CourseManagementApplication",
+            "request": "launch",
+            "mainClass": "com.example.coursemanagement.CourseManagementApplication",
+            "projectName": "course-management"
+        },
+        {
+            "type": "java",
+            "name": "Launch FetchCassandraDataApplication",
+            "request": "launch",
+            "mainClass": "ari.spring.fetchcassandradata.FetchCassandraDataApplication",
+            "projectName": "fetch-cassandra-data"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-DemoApplication<demo>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
